@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Homemade+Apple&family=Love+Ya+Like+A+Sister&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,31 +6,73 @@
 body{
     margin: 0; 
     height: 100%; 
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    background-color: rgba(247, 247, 247, 0.795);
 }
 .first-card{
-    background-color: #FF8737;
-    height: 500px;
+    background-color: #141414;
+    height: 200px;
     width: 500px;
+    margin: 10px 0 0 0 ;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.123);
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+}
+.first-img{
+    width: 30%;
+}
+.first-img > img{
+    height: 100%;
 }
 .first-inner{
-    background-color: #53FF3C;
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 70%;
 }
-.sentence{
-    background-color: #FF0000;
-    color: white;
-    font-size: 25px;
-    font-family: monospace; 
-    font-weight: bold;
+.first-inner > p:nth-child(1){
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Homemade Apple", cursive;
+    margin: 30px auto;
+    text-align: center;
+}
+.first-inner > p:nth-child(2) {
+    width: 100%;
+    margin-left: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
 }
 .second-card{
-    width: 50%;
-    height: 50vh;
-    background-color: rgb(63, 210, 255);
+    width: 500px;
+    height: 50px; 
+    background-color: rgba(252, 252, 252, 0.63);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.123);
+    border: 1px solid rgba(0, 0, 0, 0.164);
 }
 .second-inner{
-    width: 75vw;
-    height:50%; 
-    background-color: rgb(255, 0, 0);
+    height: 22px;
+    width: 100%;
+    background-color: #141414;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    color: #FFFFFF;
+    display: grid;
+    place-content: center;
+}
+.second-author{
+    height: 100%;
+    width: 100%;
+}
+.second-author > p{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
 }
